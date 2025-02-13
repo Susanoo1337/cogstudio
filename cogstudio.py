@@ -879,4 +879,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    demo.launch(share=True)
+    demo.launch(share=args.share)
